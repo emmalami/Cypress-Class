@@ -1,5 +1,5 @@
 describe('empty spec', () => {
-  it('passes', () => {
-    cy.visit('https://admin-staging.payfi.ng/')
+  it('login', () => {
+    cy.visit('https://payfi.ng', {  responseTimeout: 120000 })
   })
 })
